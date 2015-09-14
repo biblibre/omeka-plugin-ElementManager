@@ -29,7 +29,7 @@ class ElementManager_IndexController extends Omeka_Controller_AbstractActionCont
             $element->name = $name;
             $element->save();
 
-            $this->_helper->flashMessenger(__('Successfully saved configuration'),
+            $this->_helper->flashMessenger(__('Successfully saved element'),
                 'success');
         }
 

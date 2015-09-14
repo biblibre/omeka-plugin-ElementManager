@@ -1,0 +1,74 @@
+# Translation for the ElementManager plugin for Omeka.
+# Copyright (C) 2015 BibLibre
+# This file is distributed under the same license as the Omeka package.
+# Julian Maurice <julian.maurice@biblibre.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ElementManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 12:19+0200\n"
+"PO-Revision-Date: 2015-09-14 12:24+0200\n"
+"Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: controllers/IndexController.php:32
+msgid "Successfully saved element"
+msgstr "Élément enregistré avec succès"
+
+#: controllers/IndexController.php:48
+msgid "Successfully deleted element"
+msgstr "Élément supprimé avec succès"
+
+#: ElementManagerPlugin.php:29
+msgid "Manage elements"
+msgstr "Gestion des éléments"
+
+#: views/admin/index/index.php:1 views/admin/index/edit.php:1
+#: views/admin/index/delete.php:1
+msgid "Element Manager"
+msgstr "Gestionnaire d'éléments"
+
+#: views/admin/index/index.php:7
+msgid "Element"
+msgstr "Élément"
+
+#: views/admin/index/index.php:8
+msgid "Actions"
+msgstr "Actions"
+
+#: views/admin/index/index.php:16
+msgid "Modify"
+msgstr "Modifier"
+
+#: views/admin/index/edit.php:4
+#, php-format
+msgid "Modify element %s"
+msgstr "Modifier l'élément %s"
+
+#: views/admin/index/edit.php:17
+msgid "Save"
+msgstr "Enregistrer"
+
+#: views/admin/index/delete.php:4
+#, php-format
+msgid "Delete element %s"
+msgstr "Supprimer l'élément %s"
+
+#: views/admin/index/delete.php:8
+msgid "You are about to delete an element."
+msgstr "Vous êtes sur le point de supprimer un élément."
+
+#: views/admin/index/delete.php:9
+msgid "All data attached to this element will be removed too."
+msgstr ""
+"Toutes les données attachées à cet élément seront également supprimées."
+
+#: views/admin/index/delete.php:14
+msgid "Confirm"
+msgstr "Confirmer"
